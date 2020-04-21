@@ -1,0 +1,20 @@
+BerfinToys
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on:  BerfinToys
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: BerfinToys.com
+      
+      run: |
+        docker run \
+        -v ${{ berfintoys.com
+         
